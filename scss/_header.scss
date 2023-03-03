@@ -1,0 +1,19 @@
+.header {
+	background-color: $background-color_2;
+	color: $color_1;
+	border-bottom: 2px solid black;
+	font-family: $font-family_1;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-right: 8px;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	grid-area: header;
+}
+.aheader {
+  padding-left: 20px;
+}
+.nav-link{
+    color: $color_1;
+}
