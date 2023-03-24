@@ -29,9 +29,13 @@ h1 {
 h2 {
   @include textoCentrado;
 }
+h3{
+  font-size: 20px;
+}
 a {
   text-decoration: none;
   color: $color_1;
+  text-align: center;
 }
 input {
   margin-left: 10px;
@@ -135,18 +139,21 @@ form {
   width: 400px;
   height: 400px;
 }
-.botonera {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-  margin-left: 0px;
-  align-items: center;
+.btn{
+  background-color: black;
+  border-color: black;
   cursor: pointer;
+}
+.btn:hover{
+  background-color: white;
+  color: grey;
+  border-color: white;
 }
 .cartas{
     display: flex;
     justify-content: center;
     width:80%;
+    padding-bottom: 20px;
   }
   .textarea{
     margin-left: 0px;

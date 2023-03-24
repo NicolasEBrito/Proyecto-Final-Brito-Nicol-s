@@ -17,3 +17,7 @@
 .nav-link{
     color: $color_1;
 }
+.nav-link:hover{
+	text-decoration: underline;
+	color: gray;
+}
