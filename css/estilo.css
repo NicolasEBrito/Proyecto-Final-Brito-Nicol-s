@@ -16,9 +16,10 @@ main {
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15 px;
+  font-weight: bold;
   color: black;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: center;
 }
 
@@ -172,12 +173,17 @@ form {
 
 .textarea {
   margin-left: 0px;
+  border: inset 2px black;
 }
 
 .input {
   padding-top: 10px;
   margin-left: 0px;
   margin-bottom: 20px;
+}
+
+.paddingbot {
+  padding-bottom: 20px;
 }
 
 .header {

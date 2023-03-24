@@ -16,10 +16,12 @@ main {
 p {
   font-family: $font-family_1;
   font-size: 15 px;
+  font-weight: bold;
   color: $color_1;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   @include textoCentrado;
+
 }
 h1 {
   @include textoCentrado;
@@ -148,10 +150,13 @@ form {
   }
   .textarea{
     margin-left: 0px;
+    border: inset 2px black;
   }
   .input{
     padding-top: 10px;
     margin-left: 0px;
     margin-bottom: 20px;
   }
- 
+ .paddingbot{
+  padding-bottom: 20px;
+ }
