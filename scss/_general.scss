@@ -70,6 +70,10 @@ form {
     margin: auto;
   }
 }
+.carousel{
+  width: 850px;
+  height: 400px;
+}
 .car {
   padding-bottom: 40px;
 }
@@ -99,6 +103,7 @@ form {
 }
 .li {
   font-size: 20px;
+  font-weight: bold;
 }
 .lista {
   display: flex;
@@ -171,4 +176,3 @@ form {
  .consultas{
   padding-top: 100px;
  }
- 
