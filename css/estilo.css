@@ -76,13 +76,12 @@ form {
   height: 400px;
 }
 
-.carousel-inner img {
-  margin: auto;
-}
-
-.carr {
+.carousel-inner {
   width: 850px;
   height: 400px;
+}
+.carousel-inner img {
+  margin: auto;
 }
 
 .car {
