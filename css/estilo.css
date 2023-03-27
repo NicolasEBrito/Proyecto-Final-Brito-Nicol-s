@@ -102,9 +102,9 @@ form {
 }
 
 .epigrafe {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   display: flex;
-  justify-content: center;
+  text-align: center;
   width: 200px;
   margin-left: 40%;
 }
@@ -129,6 +129,7 @@ form {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .mapa {
@@ -193,6 +194,10 @@ form {
 
 .paddingbot {
   padding-bottom: 20px;
+}
+
+.consultas {
+  padding-top: 100px;
 }
 
 .header {
