@@ -77,13 +77,25 @@ form {
 }
 
 .carousel-inner {
-  width: 850px;
-  height: 400px;
+  width: 80%;
+  height: 20%;
 }
 .carousel-inner img {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .kal {
+    width: 80%;
+    height: 200px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .kal {
+    width: 80%;
+    height: 300px;
+  }
+}
 .car {
   padding-bottom: 40px;
 }
@@ -203,6 +215,19 @@ form {
 
 .consultas {
   padding-top: 100px;
+}
+
+.navi {
+  border: 1px solid black;
+}
+
+.negro {
+  background-color: black;
+}
+
+.pdRedes {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .header {
